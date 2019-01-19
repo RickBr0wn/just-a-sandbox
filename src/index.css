@@ -22,3 +22,8 @@ body {
   font-size: 1.6rem;
   background-color: #eceff1;
 }
+
+.btn {
+  padding: 1rem;
+  width: 4rem;
+}
