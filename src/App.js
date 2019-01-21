@@ -1,23 +1,9 @@
 import React from 'react'
-import Toggle from './RenderPropsStuff/ToggleRPC'
-import Counter from './ReduxStuff/Counter'
 
 const App = () => {
   return (
     <div>
-      <h1>RENDER PROPS</h1>
-      <Toggle>
-        {({ on, toggle, test }) => (
-          <>
-            {on && <h1>{test}</h1>}
-            <button onClick={toggle}>Show / Hide</button>
-          </>
-        )}
-      </Toggle>
-      <br />
-      <br />
-      <br />
-      <Counter />
+      <h1>Just a sandbox!</h1>
     </div>
   )
 }
