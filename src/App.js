@@ -1,6 +1,7 @@
 import React from 'react'
 import Toggle from './RenderPropsStuff/ToggleRPC'
 import Counter from './ReduxStuff/Counter'
+import { TodoApp } from './ReduxStuff/TodoApp'
 
 const App = () => {
   return (
@@ -18,6 +19,10 @@ const App = () => {
       <br />
       <br />
       <Counter />
+      <br />
+      <br />
+      <br />
+      <TodoApp />
     </div>
   )
 }

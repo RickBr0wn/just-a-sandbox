@@ -11,3 +11,11 @@ export const down = () => ({
     amount: 1,
   },
 })
+
+export const todoActions = (text, id) => ({
+  type: 'ADD_TODO',
+  payload: {
+    text,
+    id,
+  },
+})

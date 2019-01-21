@@ -17,7 +17,7 @@ const Counter = ({ value, up, down }) => {
 }
 
 const mapStateToProps = state => ({
-  counter: state,
+  value: state.counter,
 })
 
 const mapDispatchToProps = {

@@ -28,5 +28,6 @@ export const toggleTodo = todos =>
   Object.assign({}, todos, { completed: !todos.completed })
 
 let arr = [1, 2, 3, 4, 9, 5, 6]
+removeFromArray(arr, 0) //?
 removeCounter(arr, 4) //?
 incrementCounter(arr, 4) //?

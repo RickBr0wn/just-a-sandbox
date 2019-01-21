@@ -5,12 +5,12 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
-import { reducer } from './ReduxStuff/reducer'
+import { rootReducer } from './ReduxStuff/reducer'
 
 const reduxDevToolsExtension =
   window.devToolsExtension && window.devToolsExtension()
 
-const store = createStore(reducer, reduxDevToolsExtension)
+const store = createStore(rootReducer, reduxDevToolsExtension)
 
 ReactDOM.render(
   <Provider store={store}>
